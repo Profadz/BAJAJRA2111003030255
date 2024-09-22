@@ -48,7 +48,7 @@ const App = () => {
         file_b64: file || ""
       };
 
-      const res = await axios.post("https://bajaj-test-9541.onrender.com/bfhl", payload);
+      const res = await axios.post("https://ra2111003030255-bajajtest-backend-1.onrender.com/bfhl", payload);
       setResponse(res.data);
    
       alert('Submission successful!');
